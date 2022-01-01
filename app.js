@@ -2,6 +2,7 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 const bodyParser = require ('body-parser'); // Part #1 Point 1
+const port = 3000;
 const nav= [
     {
         link:"/books",
@@ -56,6 +57,6 @@ app.get('/',function(req,res){
 
 
 
-app.listen(5000,()=>{
-    console.log("Server Ready on 5000"); // Part #1 Point 1
+app.listen(3000,()=>{
+    console.log("Server Ready on 3000"); // Part #1 Point 1
 });
