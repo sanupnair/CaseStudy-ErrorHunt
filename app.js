@@ -2,7 +2,7 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 const bodyParser = require ('body-parser'); // Part #1 Point 1
-const port = 5000;
+
 const nav= [
     {
         link:"/books",
