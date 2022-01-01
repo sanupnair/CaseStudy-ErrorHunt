@@ -4,7 +4,7 @@
   "description": "ERROR HUNT - Case Study",
   "main": "app.js",
   "scripts": {
-    "start": "app.js"
+    "start": "node app.js"
   },
   "author": "SPN",
   "license": "ISC",
